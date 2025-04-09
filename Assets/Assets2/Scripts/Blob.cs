@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Blob : MonoBehaviour {
-    private class PropagateCollisions : MonoBehaviour {
-        void OnCollisionEnter2D(Collision2D collision) {
-            transform.parent.SendMessage("OnCollisionEnter2D", collision);
+public class Blob : MonoBehaviour 
+{
+    private class PropagateCollisions : MonoBehaviour 
+    {
+        void OnCollisionEnter2D(Collision2D collision) 
+        {
+            transform.parent.SendMessage("OnCollisionEnter2D", collision, SendMessageOptions.DontRequireReceiver);
         }
     }
 
@@ -25,19 +28,22 @@ public class Blob : MonoBehaviour {
     Vector3[,] offsets;
     float[,] weights;
 
-    void Start () {
+    void Start () 
+    {
         CreateReferencePoints();
         CreateMesh();
         MapVerticesToReferencePoints();
     }
 
-    void CreateReferencePoints() {
+    void CreateReferencePoints() 
+    {
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
         referencePoints = new GameObject[referencePointsCount];
         Vector3 offsetFromCenter = ((0.5f - referencePointRadius) * Vector3.up);
         float angle = 360.0f / referencePointsCount;
 
-        for (int i = 0; i < referencePointsCount; i++) {
+        for (int i = 0; i < referencePointsCount; i++) 
+        {
             referencePoints[i] = new GameObject();
             referencePoints[i].tag = gameObject.tag;
             referencePoints[i].AddComponent<PropagateCollisions>();
@@ -55,42 +61,43 @@ public class Blob : MonoBehaviour {
             CircleCollider2D collider =
                 referencePoints[i].AddComponent<CircleCollider2D>();
             collider.radius = referencePointRadius * transform.localScale.x;
-            if (surfaceMaterial != null) {
+            if (surfaceMaterial != null) 
+            {
                 collider.sharedMaterial = surfaceMaterial;
             }
 
             AttachWithSpringJoint(referencePoints[i], gameObject);
-            if (i > 0) {
-                AttachWithSpringJoint(referencePoints[i],
-                        referencePoints[i - 1]);
+            if (i > 0) 
+            {
+                AttachWithSpringJoint(referencePoints[i], referencePoints[i - 1]);
             }
         }
-        AttachWithSpringJoint(referencePoints[0],
-                referencePoints[referencePointsCount - 1]);
+        AttachWithSpringJoint(referencePoints[0], referencePoints[referencePointsCount - 1]);
 
         IgnoreCollisionsBetweenReferencePoints();
     }
 
-    void AttachWithSpringJoint(GameObject referencePoint,
-            GameObject connected) {
-        SpringJoint2D springJoint =
-            referencePoint.AddComponent<SpringJoint2D>();
+    void AttachWithSpringJoint(GameObject referencePoint, GameObject connected) 
+    {
+        SpringJoint2D springJoint = referencePoint.AddComponent<SpringJoint2D>();
         springJoint.connectedBody = connected.GetComponent<Rigidbody2D>();
-        springJoint.connectedAnchor = LocalPosition(referencePoint) -
-            LocalPosition(connected);
+        springJoint.connectedAnchor = LocalPosition(referencePoint) - LocalPosition(connected);
         springJoint.distance = 0;
         springJoint.dampingRatio = springDampingRatio;
         springJoint.frequency = springFrequency;
     }
 
-    void IgnoreCollisionsBetweenReferencePoints() {
+    void IgnoreCollisionsBetweenReferencePoints() 
+    {
         int i;
         int j;
         CircleCollider2D a;
         CircleCollider2D b;
 
-        for (i = 0; i < referencePointsCount; i++) {
-            for (j = i; j < referencePointsCount; j++) {
+        for (i = 0; i < referencePointsCount; i++) 
+        {
+            for (j = i; j < referencePointsCount; j++) 
+            {
                 a = referencePoints[i].GetComponent<CircleCollider2D>();
                 b = referencePoints[j].GetComponent<CircleCollider2D>();
                 Physics2D.IgnoreCollision(a, b, true);
@@ -98,7 +105,8 @@ public class Blob : MonoBehaviour {
         }
     }
 
-    void CreateMesh() {
+    void CreateMesh() 
+    {
         vertexCount = (width + 1) * (height + 1);
 
         int trianglesCount = width * height * 6;
@@ -107,14 +115,17 @@ public class Blob : MonoBehaviour {
         uv = new Vector2[vertexCount];
         int t;
 
-        for (int y = 0; y <= height; y++) {
-            for (int x = 0; x <= width; x++) {
+        for (int y = 0; y <= height; y++) 
+        {
+            for (int x = 0; x <= width; x++) 
+            {
                 int v = (width + 1) * y + x;
                 vertices[v] = new Vector3(x / (float)width - 0.5f,
                         y / (float)height - 0.5f, 0);
                 uv[v] = new Vector2(x / (float)width, y / (float)height);
 
-                if (x < width && y < height) {
+                if (x < width && y < height) 
+                {
                     t = 3 * (2 * width * y + 2 * x);
 
                     triangles[t] = v;
@@ -133,39 +144,46 @@ public class Blob : MonoBehaviour {
         mesh.triangles = triangles;
     }
 
-    void MapVerticesToReferencePoints() {
+    void MapVerticesToReferencePoints() 
+    {
         offsets = new Vector3[vertexCount, referencePointsCount];
         weights = new float[vertexCount, referencePointsCount];
 
-        for (int i = 0; i < vertexCount; i++) {
+        for (int i = 0; i < vertexCount; i++) 
+        {
             float totalWeight = 0;
 
-            for (int j = 0; j < referencePointsCount; j++) {
+            for (int j = 0; j < referencePointsCount; j++) 
+            {
                 offsets[i, j] = vertices[i] - LocalPosition(referencePoints[j]);
                 weights[i, j] =
                     1 / Mathf.Pow(offsets[i, j].magnitude, mappingDetail);
                 totalWeight += weights[i, j];
             }
 
-            for (int j = 0; j < referencePointsCount; j++) {
+            for (int j = 0; j < referencePointsCount; j++) 
+            {
                 weights[i, j] /= totalWeight;
             }
         }
     }
 
-    void Update() {
+    void Update() 
+    {
         UpdateVertexPositions();
     }
 
-    void UpdateVertexPositions() {
+    void UpdateVertexPositions() 
+    {
         Vector3[] vertices = new Vector3[vertexCount];
 
-        for (int i = 0; i < vertexCount; i++) {
+        for (int i = 0; i < vertexCount; i++) 
+        {
             vertices[i] = Vector3.zero;
 
-            for (int j = 0; j < referencePointsCount; j++) {
-                vertices[i] += weights[i, j] *
-                    (LocalPosition(referencePoints[j]) + offsets[i, j]);
+            for (int j = 0; j < referencePointsCount; j++) 
+            {
+                vertices[i] += weights[i, j] * (LocalPosition(referencePoints[j]) + offsets[i, j]);
             }
         }
 
@@ -174,7 +192,8 @@ public class Blob : MonoBehaviour {
         mesh.RecalculateBounds();
     }
 
-    Vector3 LocalPosition(GameObject obj) {
+    Vector3 LocalPosition(GameObject obj) 
+    {
         return transform.InverseTransformPoint(obj.transform.position);
     }
 }

@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 464436}
   - component: {fileID: 5039938}
   - component: {fileID: 11456448}
+  - component: {fileID: 8861481580214665931}
+  - component: {fileID: 4035390944417665711}
   - component: {fileID: 3388798}
   - component: {fileID: 2301246}
-  - component: {fileID: 11436574}
   m_Layer: 0
   m_Name: Blob
   m_TagString: Untagged
@@ -81,8 +82,36 @@ MonoBehaviour:
   referencePointRadius: 0.25
   mappingDetail: 7
   springDampingRatio: 20
-  springFrequency: 5
+  springFrequency: 10
   surfaceMaterial: {fileID: 6200000, guid: 3a89cc1ec48a44255bea44a6ee6ad34b, type: 2}
+--- !u!114 &8861481580214665931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605391c36b7321f42af3693a99331ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30
+  jumpPower: 100
+--- !u!114 &4035390944417665711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605391c36b7321f42af3693a99331ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30
+  jumpPower: 75
 --- !u!33 &3388798
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -133,21 +162,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &11436574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00f90ea658c914744be528de75f5fd89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSmoothTime: 0.1
-  movementMaxSpeed: 50
-  acceleration: 2
-  scaleStep: 3
-  massStep: 3
-  explosion: {fileID: 123696, guid: f9befcb89f0fc4fb2b7c79cf9ff34d1e, type: 2}
