@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,9 +93,2794 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RollBox_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 565
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b73f7eceb4d574b92835c87e579b9c
+      internalID: -771617383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 567
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fc0c1fd19bfc042b3efd858eaa9885
+      internalID: -175120542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 564
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff95c848d6b6a0f4b8ce1177e5dae366
+      internalID: -861565833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_3
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 566
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abcadf16106d114594ff9b438f3f004
+      internalID: -158284684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 560
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9a75bd08e6e2e4b94915a2add11600
+      internalID: 1413772790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_5
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 560
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eca726e237ecf4c87e92e8d2bf3070
+      internalID: -102519895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_6
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 514
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408c4520b486cf7438c6973dbfc9882e
+      internalID: -2127409333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 553
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e133e7479a273a443b02b49cfbb513d6
+      internalID: -622901073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 551
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c110784f729fe804b8c9a61c84d58e5c
+      internalID: 1578153404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_9
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 543
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022307675d6ac2e4c9a90c68c4f1ce14
+      internalID: -1665659707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_10
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 553
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b18b0633e64e674d9eb2b7ec0014186
+      internalID: -881930506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 547
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c5e17ba1d38e64698b3b7f4382e889
+      internalID: -1840918009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 544
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eea9a7770a04a46afa518f729f79ef
+      internalID: -839607362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 544
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9380432548e5041b6243f6bd2c3856
+      internalID: -862671538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_14
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 540
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f577dc5363ac06c45b4f7ed8be79a5bc
+      internalID: 58930415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 537
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574ddf4ab63232640bafb7cc76bf774c
+      internalID: 186410269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 516
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4add528f815d934295376248f1abd68
+      internalID: 625185780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 515
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52dd776b0e524649a3954f9e5d1f043
+      internalID: 883546647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_18
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 514
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aca0ddf449b0b748a28d33d21c5ae26
+      internalID: 473408547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 497
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047e23518ea64a14e82e8d464ae0eac3
+      internalID: 356451818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 512
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc4fbe5a55614749ba7ad6eb4542b03
+      internalID: 1620992677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_21
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 508
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda0cdb9e533f624fb0a9a6dacc9407f
+      internalID: 123131323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81098144be6d57429e89f4648321463
+      internalID: -101330888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_23
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 499
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0019076582422443a983a4bed9d62ee
+      internalID: 337029114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_24
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 495
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732d532811c4f1d4fb71778d9e6addd4
+      internalID: -1662791648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_25
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 503
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0ef5754e792584284f2298642a7043
+      internalID: -1315634403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 496
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946a6cfc8f1c9d8458468f8663c918ea
+      internalID: -915063222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_27
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 449
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1741105acf8e4640bd4840aa362ad8e
+      internalID: 1472744215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_28
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 496
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e06120c83bcc74f9ea20ba56ad393c
+      internalID: 725857827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_29
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 490
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ebff3078b7fba488cd895a0dba8c12
+      internalID: 1293195665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_30
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 487
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125c1d06dd0725b4288542466aa33302
+      internalID: -1392263508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_31
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 468
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ef75be9cca68e4285a4a821119ce9c
+      internalID: -809266681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_32
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 473
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45e46ccf695fb44f8dca04508f24f2c
+      internalID: 266368398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_33
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 476
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c475f126c67c684d9f24183817ca485
+      internalID: -1668680791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 478
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a579955e51f502c449d51e6243184350
+      internalID: -35094217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_35
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 467
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c53b9f033ed892459157174ad810437
+      internalID: 783408408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_36
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 477
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957c3657091a4f547a831dec455e9ffc
+      internalID: 1218970730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 474
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dae683bb69c09448731177e95dc4e0
+      internalID: -1719698402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_38
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 465
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c256fc19e8fc844b532b9c918aa149
+      internalID: -1623865340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 465
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d24becfd33a7348b01937a4ddad2cf
+      internalID: 253029649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c48fa148e7b404fb289a70a86f19ea
+      internalID: 1836184754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_41
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3c4421a29758b4480be802408c40f1
+      internalID: 1669282174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_42
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 448
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3698a451e3e9e84a8e6db02821cf47d
+      internalID: 140146831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 427
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a0d99e09c26fd45963d661b403e0cc
+      internalID: -62991367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_44
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 456
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfe8bd0be2bf3841825721c14e79b47
+      internalID: 1190208965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_45
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 462
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09422894fc1b8c248822e14fcbda827a
+      internalID: 148708963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_46
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 459
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be01a5e47b30274489e0246933cd6f81
+      internalID: -143651885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_47
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 452
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f962989d72c16ce4181bbb0e8bb9e932
+      internalID: 1958551129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_48
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 454
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad2e3dd904201e439f46d2ce8d88bea
+      internalID: 1764376919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_49
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 456
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f539b9dba8b06d49baf230de0885607
+      internalID: 1376381002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_50
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 450
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbee1922e8cfe7544a67b2dbff88126c
+      internalID: -482143514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_51
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 430
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae3a1b121c40904e8ba5e60734a52ce
+      internalID: 457884909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_52
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 436
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56cbc7f8b27d144485a1381f46573ca
+      internalID: 2034492725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_53
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 440
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d1a1f5e7ea2184c86685c33dd2d6ed
+      internalID: 564540420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 441
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e1d77d7584e644f84c8659e9a4051f
+      internalID: -740232903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_55
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 410
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60014b5bbeeb72b4da555835778ac21c
+      internalID: 1577693355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_56
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 422
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b854ebc4f984349931f8cc388edd47
+      internalID: 2093002998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_57
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 444
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaed711f349898438c79b519f3a73a2
+      internalID: -2084011462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_58
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 386
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a23069716daf574eae1b8a72d2f476b
+      internalID: -664900080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_59
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 401
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df04bbb76889ff94c803555171b13c4e
+      internalID: 1683325764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_60
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 426
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478f05b9819c9bf4aa67c6e3c81e6a79
+      internalID: -1608639070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_61
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 424
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbcf2cf3c5ec6446bf766ae82ddebb6
+      internalID: 1035639342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_62
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 413
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c67de09a782dcd469f36ac88750ee65
+      internalID: 1121510132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_63
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 408
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aa0b1e7aa434d49b9868f5de1fdc12
+      internalID: 1324526307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_64
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 417
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aaabd2692d0e244a751917c95d4f5b
+      internalID: -90940465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_65
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 415
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bedd428d2a65149ae2cd0d044743e5
+      internalID: 134944498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_66
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 410
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed03af81eb8cf024b89b29bfaadbdd5c
+      internalID: -838844451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_67
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 413
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8277913db5aa24141bc64178e665f5f3
+      internalID: -336220640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_68
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 351
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ec502a14476d446a7d8d299cfa7a3f
+      internalID: -1259415954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_69
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 395
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6366f48f90a726147bc9f4ca7542fff1
+      internalID: -149755365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_70
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 370
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e76d8e58458ad4ab2be7228dcc9d40
+      internalID: 1233136396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_71
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 372
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c290f45dd39c704f9b4eb3af1e37d55
+      internalID: -442640533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_72
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 398
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5326c66df8f46e649944347043f4eca0
+      internalID: -1983997561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_73
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 392
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cebb15d918b3b4e8bea6bd64d2db33
+      internalID: -432250108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_74
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 388
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e338c6686e09e8419781d833dba3a09
+      internalID: 1217724150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_75
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 390
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8333892ede4b74e83fa6b403036dcc
+      internalID: 608745756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_76
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 391
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c4b63e40c533f4d82a2c1ab749aa76
+      internalID: -1311047395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_77
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 379
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6846daef3abac1d4e98df5c7a99b5816
+      internalID: -834279759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_78
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 385
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fc72002d09d364eb710b537e859529
+      internalID: -569242588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_79
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 370
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f78f38293dd26c4e869d3cb77d37bc7
+      internalID: -110457668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_80
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 376
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03b9adab1188b04e8020962ff2f2319
+      internalID: 1216942128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_81
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 378
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74b0c9206157564c9df8db2868d3908
+      internalID: -2098696254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_82
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 323
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bdf93e5cdbd5b4d834bdb1cae035af
+      internalID: -1402072331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_83
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 341
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d291afc7ca3934a9d55b378a9dace9
+      internalID: 1943772116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_84
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 358
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f59ec07409f4c44f90fe0809d867a2c
+      internalID: 2014376490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_85
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 365
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42f09a71d4c5ad43940d7b1db4ccd10
+      internalID: 1617226412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 350
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dd7db8bb739bf41ae5d08d2a86163c
+      internalID: 537224989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_87
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 339
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e871e133f9fcb43b3c17bc48828063
+      internalID: 572410602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_88
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 361
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca2ba20b2bd80d4b99a130920157de1
+      internalID: 557950478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_89
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 358
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278339d735af23e46a01784b5dc503ed
+      internalID: -620361774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_90
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 353
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdf3fcee7d81e644bf84e1a29af62e2
+      internalID: 2012295287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_91
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 339
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9794108865f4b0a49a5fd306a66a0021
+      internalID: 51195660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_92
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 355
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29ab1db61c181c43b68063304bff462
+      internalID: -886496617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_93
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 340
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3e972b82e961a4d8a449b1655d6f76
+      internalID: 2134361776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_94
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 341
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9747c6517e22d4cafdc388fff3b2d6
+      internalID: -1825075645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_95
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 345
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b458403fca7ae24e846a6cc47e6220a
+      internalID: 902504128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6d609fed839ab40b05c7673a30dcf7
+      internalID: -467483157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_97
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 331
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600bc75ff391ff646b27175a504cdf96
+      internalID: 1930523786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_98
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 297
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e188f20b35c71d459394f546c157eb7
+      internalID: -398262431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_99
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 299
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a19507e12716f4db4f7f630a4286dd
+      internalID: 1697666601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 236
+        width: 112
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6fb574062daf4419a38ac484ac093d
+      internalID: 1398225229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_101
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 268
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa99a0ff35e509c44a04a2597dc03d7a
+      internalID: -238537454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_102
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 222
+        width: 124
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0f706c949d57e4688ae4e4dd8fe738
+      internalID: 1667062072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_103
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 296
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be51a37c8773fe648b24c2bcc0a3b220
+      internalID: 33202811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_104
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 244
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a70dd6f6c9bd44498ed7b188625ef8
+      internalID: 419051614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_105
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 258
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e453551edbbd5945805ae238d2760aa
+      internalID: -1644086606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_106
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 232
+        width: 102
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333433f330f04704a8aae85adef60e00
+      internalID: -545432101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_107
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324fe614fed7bf4188f86d4f0a297eb
+      internalID: 1515705309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_108
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 197
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f4c0715b4721d449652f9c660a7e2c
+      internalID: -1641318605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_109
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 256
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886c480f5149df0409632f50c87cbb15
+      internalID: -960098759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddad9b0986f503d488da93f3a3b0d977
+      internalID: -737301973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_111
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 134
+        width: 92
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba5a838474727645ade7a49639aa8d4
+      internalID: 888044820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_112
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 134
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82e7866fd2f30148a1f6c685de9e18b
+      internalID: 823786966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_113
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 131
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8bd3fdae4f14642ac54a5cc60f5980
+      internalID: -593864349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_114
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 193
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6d0d66d98efdb4bb08033bd71c66d9
+      internalID: -1066651880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_115
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 141
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a7cb6741045364b9acd7be5ac342de
+      internalID: 1990937186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_116
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 122
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca134740131b64428b3adab5e5d0624
+      internalID: 863948570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104eff0f7e6ebdb40a4e65b8d058afc9
+      internalID: -1929200937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_118
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 66
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac54f7f5855d2dd4a962b102f37af223
+      internalID: -1738598377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_119
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 68
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3cfe4ab7dde8c48a9a4ae2e68a698b
+      internalID: 1706116816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_120
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 68
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a23fcdfe3111b47b420f5791184a97
+      internalID: 1147548335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 72
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5560d37e9f46a4698feb7635f551fe
+      internalID: -331881150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_122
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 67
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de163b587ed27746a6b05d6b033d0c4
+      internalID: 2056465016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_123
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 65
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf54e554a310ef346b7d5841cdad78c2
+      internalID: -1493370636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_124
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 61
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f294f74a9ac444c8f721194b9c4304
+      internalID: 1511087875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 67
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d37c1b71fa0a742ab75852c58b35d2
+      internalID: -1720915208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_126
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a61aad516fa6c48aa88c73195191d5
+      internalID: -1955015856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_127
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 5
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734f1fa182915b3419a719acae8ef57b
+      internalID: -460693004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_128
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 9
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b607288bdc50c4eb19785b4dccf07b
+      internalID: -585986706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_129
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cecf57315d95274fbd171da72c8dd89
+      internalID: 1470648772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_130
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 2
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7d039318d99344bab5cbe758bc655b
+      internalID: -1477812901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollBox_131
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c0941ee7f1bc4449f051218bb42f3a
+      internalID: -180980939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +2891,139 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RollBox_0: -771617383
+      RollBox_1: -175120542
+      RollBox_10: -881930506
+      RollBox_100: 1398225229
+      RollBox_101: -238537454
+      RollBox_102: 1667062072
+      RollBox_103: 33202811
+      RollBox_104: 419051614
+      RollBox_105: -1644086606
+      RollBox_106: -545432101
+      RollBox_107: 1515705309
+      RollBox_108: -1641318605
+      RollBox_109: -960098759
+      RollBox_11: -1840918009
+      RollBox_110: -737301973
+      RollBox_111: 888044820
+      RollBox_112: 823786966
+      RollBox_113: -593864349
+      RollBox_114: -1066651880
+      RollBox_115: 1990937186
+      RollBox_116: 863948570
+      RollBox_117: -1929200937
+      RollBox_118: -1738598377
+      RollBox_119: 1706116816
+      RollBox_12: -839607362
+      RollBox_120: 1147548335
+      RollBox_121: -331881150
+      RollBox_122: 2056465016
+      RollBox_123: -1493370636
+      RollBox_124: 1511087875
+      RollBox_125: -1720915208
+      RollBox_126: -1955015856
+      RollBox_127: -460693004
+      RollBox_128: -585986706
+      RollBox_129: 1470648772
+      RollBox_13: -862671538
+      RollBox_130: -1477812901
+      RollBox_131: -180980939
+      RollBox_14: 58930415
+      RollBox_15: 186410269
+      RollBox_16: 625185780
+      RollBox_17: 883546647
+      RollBox_18: 473408547
+      RollBox_19: 356451818
+      RollBox_2: -861565833
+      RollBox_20: 1620992677
+      RollBox_21: 123131323
+      RollBox_22: -101330888
+      RollBox_23: 337029114
+      RollBox_24: -1662791648
+      RollBox_25: -1315634403
+      RollBox_26: -915063222
+      RollBox_27: 1472744215
+      RollBox_28: 725857827
+      RollBox_29: 1293195665
+      RollBox_3: -158284684
+      RollBox_30: -1392263508
+      RollBox_31: -809266681
+      RollBox_32: 266368398
+      RollBox_33: -1668680791
+      RollBox_34: -35094217
+      RollBox_35: 783408408
+      RollBox_36: 1218970730
+      RollBox_37: -1719698402
+      RollBox_38: -1623865340
+      RollBox_39: 253029649
+      RollBox_4: 1413772790
+      RollBox_40: 1836184754
+      RollBox_41: 1669282174
+      RollBox_42: 140146831
+      RollBox_43: -62991367
+      RollBox_44: 1190208965
+      RollBox_45: 148708963
+      RollBox_46: -143651885
+      RollBox_47: 1958551129
+      RollBox_48: 1764376919
+      RollBox_49: 1376381002
+      RollBox_5: -102519895
+      RollBox_50: -482143514
+      RollBox_51: 457884909
+      RollBox_52: 2034492725
+      RollBox_53: 564540420
+      RollBox_54: -740232903
+      RollBox_55: 1577693355
+      RollBox_56: 2093002998
+      RollBox_57: -2084011462
+      RollBox_58: -664900080
+      RollBox_59: 1683325764
+      RollBox_6: -2127409333
+      RollBox_60: -1608639070
+      RollBox_61: 1035639342
+      RollBox_62: 1121510132
+      RollBox_63: 1324526307
+      RollBox_64: -90940465
+      RollBox_65: 134944498
+      RollBox_66: -838844451
+      RollBox_67: -336220640
+      RollBox_68: -1259415954
+      RollBox_69: -149755365
+      RollBox_7: -622901073
+      RollBox_70: 1233136396
+      RollBox_71: -442640533
+      RollBox_72: -1983997561
+      RollBox_73: -432250108
+      RollBox_74: 1217724150
+      RollBox_75: 608745756
+      RollBox_76: -1311047395
+      RollBox_77: -834279759
+      RollBox_78: -569242588
+      RollBox_79: -110457668
+      RollBox_8: 1578153404
+      RollBox_80: 1216942128
+      RollBox_81: -2098696254
+      RollBox_82: -1402072331
+      RollBox_83: 1943772116
+      RollBox_84: 2014376490
+      RollBox_85: 1617226412
+      RollBox_86: 537224989
+      RollBox_87: 572410602
+      RollBox_88: 557950478
+      RollBox_89: -620361774
+      RollBox_9: -1665659707
+      RollBox_90: 2012295287
+      RollBox_91: 51195660
+      RollBox_92: -886496617
+      RollBox_93: 2134361776
+      RollBox_94: -1825075645
+      RollBox_95: 902504128
+      RollBox_96: -467483157
+      RollBox_97: 1930523786
+      RollBox_98: -398262431
+      RollBox_99: 1697666601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

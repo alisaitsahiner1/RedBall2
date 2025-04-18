@@ -330,6 +330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 601e6c0b5d75e624291fbd7d869f12da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelButton: {fileID: 0}
+  levelToLoad: 1
+  levelText: {fileID: 0}
 --- !u!4 &393777650
 Transform:
   m_ObjectHideFlags: 0
@@ -429,7 +432,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 393777649}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: Play
+        m_MethodName: OpenLevelMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

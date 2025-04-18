@@ -1,24 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Header("Level Ayarları")]
+    public Button levelButton;               // Bu sahnedeki buton
+    public int levelToLoad = 1;              // Hangi level sahnesi yüklenecek
+
+    [Header("Görsel Ayarlar")]
+    public TextMeshProUGUI levelText;        // Butonun üzerindeki sayı yazısı
+
     void Start()
     {
+        if (levelText != null)
+        {
+            levelText.text = levelToLoad.ToString(); // Level numarasını yaz
+        }
+
+        if (levelButton != null)
+        {
+            levelButton.onClick.AddListener(() =>
+            {
+                LoadLevel();
+            });
+        }
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoadLevel()
     {
-        
+        string levelName = "Level" + levelToLoad;
+        SceneManager.LoadScene(levelName);
     }
 
-    public void Play()
+    public void OpenLevelMenu()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Levels");
     }
 }

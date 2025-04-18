@@ -136,11 +136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 464436, guid: 0d3f4c99ee3ab47a5ad099f2129e419d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.14
+      value: -29.26
       objectReference: {fileID: 0}
     - target: {fileID: 464436, guid: 0d3f4c99ee3ab47a5ad099f2129e419d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.99
+      value: 6.07
       objectReference: {fileID: 0}
     - target: {fileID: 464436, guid: 0d3f4c99ee3ab47a5ad099f2129e419d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -179,6 +179,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d3f4c99ee3ab47a5ad099f2129e419d, type: 3}
+--- !u!114 &7904663 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8861481580214665931, guid: 0d3f4c99ee3ab47a5ad099f2129e419d, type: 3}
+  m_PrefabInstance: {fileID: 7904662}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605391c36b7321f42af3693a99331ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &72324208
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,12 +570,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  maxSpeed: 5
   jumpPower: 5
---- !u!4 &260725231 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6648380301240191026, guid: 3403d20ef04ad634bb9884658abef36f, type: 3}
-  m_PrefabInstance: {fileID: 5755787922542984915}
-  m_PrefabAsset: {fileID: 0}
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.1
+  isGrounded: 0
 --- !u!1 &409557360
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,9 +886,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Character, Assembly-CSharp
-        m_MethodName: Jump
+      - m_Target: {fileID: 7904663}
+        m_TargetAssemblyTypeName: MovementTest, Assembly-CSharp
+        m_MethodName: UIMoveJump
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1013,7 +1023,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.983, y: 0.74406, z: -10.676}
+  m_LocalPosition: {x: -26.9, y: 2.8, z: -10.676}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1032,7 +1042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f44e803d004667a4a89dc1e9b9737790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 260725231}
+  target: {fileID: 2062921191}
   smoothSpeed: 1
   offset: {x: 2, y: 0, z: 0}
 --- !u!1 &543906950
@@ -1243,7 +1253,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  maxSpeed: 5
   jumpPower: 5
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.1
+  isGrounded: 0
 --- !u!1 &632449708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,7 +1360,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  maxSpeed: 5
   jumpPower: 5
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.1
+  isGrounded: 0
 --- !u!1 &696313539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,9 +1640,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: Character, Assembly-CSharp
-          m_MethodName: MoveRightDown
+        - m_Target: {fileID: 7904663}
+          m_TargetAssemblyTypeName: MovementTest, Assembly-CSharp
+          m_MethodName: MoveRight
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1638,9 +1656,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: Character, Assembly-CSharp
-          m_MethodName: MoveRightUp
+        - m_Target: {fileID: 7904663}
+          m_TargetAssemblyTypeName: MovementTest, Assembly-CSharp
+          m_MethodName: StopMoving
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3036,7 +3054,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  maxSpeed: 5
   jumpPower: 5
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.1
+  isGrounded: 0
 --- !u!1 &1375351031
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,7 +3287,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  maxSpeed: 5
   jumpPower: 5
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.1
+  isGrounded: 0
 --- !u!1 &1556201879
 GameObject:
   m_ObjectHideFlags: 0
@@ -3322,9 +3348,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: Character, Assembly-CSharp
-          m_MethodName: MoveLeftDown
+        - m_Target: {fileID: 7904663}
+          m_TargetAssemblyTypeName: MovementTest, Assembly-CSharp
+          m_MethodName: MoveLeft
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3338,9 +3364,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: Character, Assembly-CSharp
-          m_MethodName: MoveLeftUp
+        - m_Target: {fileID: 7904663}
+          m_TargetAssemblyTypeName: MovementTest, Assembly-CSharp
+          m_MethodName: StopMoving
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3684,7 +3710,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  maxSpeed: 5
   jumpPower: 5
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.1
+  isGrounded: 0
 --- !u!1 &1808061002
 GameObject:
   m_ObjectHideFlags: 0
@@ -4111,7 +4141,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  maxSpeed: 5
   jumpPower: 5
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.1
+  isGrounded: 0
 --- !u!1 &2023838449
 GameObject:
   m_ObjectHideFlags: 0
@@ -4218,6 +4252,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2062921191 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 464436, guid: 0d3f4c99ee3ab47a5ad099f2129e419d, type: 3}
+  m_PrefabInstance: {fileID: 7904662}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2859447857461604730
 PrefabInstance:
   m_ObjectHideFlags: 0
